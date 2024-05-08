@@ -1,0 +1,71 @@
+.root{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{    
+    display: flex;
+    flex-direction: column;    
+    /*background-image: url(Untitled\ design\ \(3\).png);*/
+    height: 100vh;
+    width:99vw;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin: 5px;
+}
+
+.card{
+    /* background-color: rgba(57, 118, 199, 0.637); */
+    height: 74px;
+    width: 302px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 21px;
+    margin-top: 33px;
+    gap: 2px;
+    color: rgb(17, 16, 16);
+    background-color: palegoldenrod;
+    /*backdrop-filter: blur(80px);
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+    /*background-color: rgba(88, 134, 175, 0.342);
+    /*border-color: rgba(88, 134, 175, 0.342);*/
+    border: 1px solid;
+    
+}
+
+table {
+
+    background-color: #FAD961;
+background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    color: rgb(11, 10, 10);
+    position: fixed;
+    top: 280px;
+    right: 498px;
+    height: 443px;
+    width: 270px;
+    border-radius: 10px;
+    /*border: 2px solid ;
+    /*border-color: black;*/
+    padding: 35px;
+    margin: -74px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.section {
+    height: 443px;
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    position: absolute;
+    top: 206px;
+    left: 1148px;
+    
+}

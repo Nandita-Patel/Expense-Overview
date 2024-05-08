@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .skills{
+            height: 399px;
+            width: 760px;
+            border: 5px solid rgb(199, 188, 188);
+            margin: 45px;
+            padding: 28px;
+            border-radius: 20px;
+            background-color: #e5e0e0;
+        }
+ 
+        /* Styling the body of the page */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: #f9f5f5;
+        }
+ 
+        /* Stylingthe last h2 tag by giving margin bottom */
+        .progress-bar-container:not(:last-child) {
+            margin-bottom: 50px;
+        }
+ 
+        /* Styling the h2 tag by giving color, 
+        letter spacing, font-size etc.*/
+        .progress-bar-container h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #100f0f;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+ 
+        /* Styling the border and box
+        effect of the progress bar*/
+        .progress-bar {
+            width: 509px;
+            height: 7px;
+            margin-top: 10px;
+            border: 1px solid #565656;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgb(252, 119, 119);
+        }
+        nav{
+            text-align: center;
+        }
+ 
+        /* Stylingthe background color of each 
+        animation and border radius */
+        .percentage {
+            display: block;
+            height: 100%;
+            background-color: red;
+            border-radius: 5px;
+            animation: progress 1500ms ease-in 1;
+        }
+ 
+        /* Assigning width of each languages*/
+        .c {
+            width: 85%;
+        }
+ 
+        .java {
+            width: 70%;
+        }
+ 
+        .python {
+            width: 55%;
+        }
+ 
+        .html {
+            width: 75%;
+        }
+ 
+        .css {
+            width: 65%;
+        }
+ 
+        .javascript {
+            width: 55%;
+        }
+ 
+        /* Animating the progress bar by 
+        initially starting from 0*/
+        @keyframes progress {
+            from {
+                width: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <nav>
+            <h1>❋ EXPENSE OVERVIEW ❋</h1>
+        </nav>
+        
+        <div class="box1">
+            
+            <div class="card"><h4>Budget Rs 10000</h4></div>
+            <div class="card"><h4>Total Expence Rs 8000</h4></div>
+            <div class="card"><h4>Weekly Expence Rs 35000</h4></div>
+        </div>
+
+        <div class="box2">
+            <table class="table">
+                <tr>
+                    <td>Month</td>
+                    <td>Total</td>
+                </tr>
+    
+                <tr>
+                    <td>January</td>
+                    <td>10000</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>8000</td>
+                </tr>
+                <tr>
+                    <td>March</td>
+                    <td>12000</td>
+                </tr>
+                <tr>
+                    <td>April</td>
+                    <td>11000</td>
+                </tr>
+                <tr>
+                    <td>May</td>
+                    <td>10000</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="skills">
+            <div class="progress-bar-container">
+                <h2>Entertainment</h2>
+                <div class="progress-bar">
+                    <span class="percentage c"></span>
+                </div>
+            </div>
+     
+            <div class="progress-bar-container">
+                <h2>Food & Beverage</h2>
+                <div class="progress-bar">
+                    <span class="percentage java"></span>
+                </div>
+            </div>
+     
+            <div class="progress-bar-container">
+                <h2>Travel</h2>
+                <div class="progress-bar">
+                    <span class="percentage python"></span>
+                </div>
+            </div>
+     
+            <div class="progress-bar-container">
+                <h2>Shopping</h2>
+                <div class="progress-bar">
+                    <span class="percentage html"></span>
+                </div>
+            </div>
+     
+            <!--<div class="progress-bar-container">
+                <h2>Trip</h2>
+                <div class="progress-bar">
+                    <span class="percentage css"></span>
+                </div>-->
+            </div>
+     
+           
+        </div>
+
+        <div class="section">
+            <h1>Section</h1>
+        </div>
+        
+        
+    </div>
+
+</body>
+</html>
